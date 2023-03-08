@@ -1,0 +1,20 @@
+# JetBrains
+.idea
+
+# Node
+node_modules
+lib
+typings
+vite*.mjs
+
+# Docs
+etc
+doc
+temp
+
+# scripts
+script/__pycache__
+script/venv
+
+# Vite
+coverage
