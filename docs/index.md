@@ -2,14 +2,14 @@
 layout: home
 
 hero:
-  name: xxx
-  text: xxx xxx
-  tagline: xx xx xx
+  name: zhi-env
+  text: a cross-platform env config lib
+  tagline: zhi env zhi-env config
   actions:
     - theme: brand
       text: Get Started
-      link: /01.帮助文档/
+      link: /zhienv/
     - theme: alt
       text: View on Git
-      link: 
+      link: https://github.com/terwer/zhi-env
 ---

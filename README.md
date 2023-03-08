@@ -1,3 +1,3 @@
-# zhi-ts-template
+# zhi-env
 
 a cross-platform env config lib

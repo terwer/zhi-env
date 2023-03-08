@@ -31,5 +31,6 @@ module.exports = {
     quotes: "off",
     "@typescript-eslint/semi": ["error", "never"],
     "@typescript-eslint/quotes": ["error", "double"],
+    "@typescript-eslint/ban-types": "off",
   },
 }
