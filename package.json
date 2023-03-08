@@ -2,7 +2,6 @@
   "name": "zhi-env",
   "version": "0.0.1",
   "description": "a cross-platform env config lib",
-  "type": "module",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "exports": {
