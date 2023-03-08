@@ -2,6 +2,9 @@
 
 /**
  * 预定义的环境变量
+ *
+ * @author terwer
+ * @since 0.0.1
  */
 interface ImportMetaEnv {
   /**
