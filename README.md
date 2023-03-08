@@ -1,3 +1,3 @@
-# zhi-ts-template
+# zhi-env
 
-TypeScript project template for zhi-lib
+a cross-platform env config lib
