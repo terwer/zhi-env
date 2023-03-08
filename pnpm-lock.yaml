@@ -9,6 +9,7 @@ specifiers:
   '@vitest/coverage-c8': ^0.29.2
   eslint: ^8.35.0
   eslint-config-prettier: ^8.7.0
+  jsdoc-babel: ^0.5.0
   jsdoc2vitepress: ^1.0.5
   prettier: ^2.8.4
   ts-node: ^10.9.1
@@ -26,6 +27,7 @@ devDependencies:
   '@vitest/coverage-c8': 0.29.2_vitest@0.29.2
   eslint: 8.35.0
   eslint-config-prettier: 8.7.0_eslint@8.35.0
+  jsdoc-babel: 0.5.0
   jsdoc2vitepress: 1.0.5
   prettier: 2.8.4
   ts-node: 10.9.1_zix2iy4c4a7fivhrc3ey4gy2pu
@@ -4777,6 +4779,15 @@ packages:
       walk-back: 5.1.0
     dev: true
 
+  /jsdoc-babel/0.5.0:
+    resolution: {integrity: sha512-PYfTbc3LNTeR8TpZs2M94NLDWqARq0r9gx3SvuziJfmJS7/AeMKvtj0xjzOX0R/4MOVA7/FqQQK7d6U0iEoztQ==}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+    dependencies:
+      jsdoc-regex: 1.0.1
+      lodash: 4.17.21
+    dev: true
+
   /jsdoc-parse/6.2.0:
     resolution: {integrity: sha512-Afu1fQBEb7QHt6QWX/6eUWvYHJofB90Fjx7FuJYF7mnG9z5BkAIpms1wsnvYLytfmqpEENHs/fax9p8gvMj7dw==}
     engines: {node: '>=12'}
@@ -4787,6 +4798,11 @@ packages:
       reduce-extract: 1.0.0
       sort-array: 4.1.5
       test-value: 3.0.0
+    dev: true
+
+  /jsdoc-regex/1.0.1:
+    resolution: {integrity: sha512-CMFgT3K8GbmChWEfLWe6jlv9x33E8wLPzBjxIlh/eHLMcnDF+TF3CL265ZGBe029o1QdFepwVrQu0WuqqNPncg==}
+    engines: {node: '>=4.0'}
     dev: true
 
   /jsdoc-to-markdown/7.1.1:
