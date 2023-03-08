@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/terwer/zhi-env/compare/v1.0.0...v1.1.0) (2023-03-08)
+
+
+### Features
+
+* add vercel support for vitepress ([56b1816](https://github.com/terwer/zhi-env/commit/56b1816c6f7b802cb8d92f75b7860dfe6bf85b09))
+* add vercel support for vitepress ([9508cb5](https://github.com/terwer/zhi-env/commit/9508cb5ec3c9d80ef0f89d6b5e7b725cc7d6c680))
+
 ## 1.0.0 (2023-03-08)
 
 
