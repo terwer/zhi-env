@@ -22,4 +22,5 @@ coverage
 
 # Vercel
 .vercel
-docs/dist
+docs/.vitepress/dist
+docs/.vitepress/cache
