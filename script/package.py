@@ -17,5 +17,5 @@ if __name__ == "__main__":
     scriptutils.rm_folder("./doc")
 
     os.system("pnpm clean")
-    os.system("pnpm coverage ")
+    os.system("pnpm coverage")
     print("package finished.")

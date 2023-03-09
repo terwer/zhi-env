@@ -1,7 +1,12 @@
 {
-  "name": "zhi-env",
+  "name": "terwer",
   "version": "1.4.0",
-  "description": "a cross-platform env config lib",
+  "description": "ts template lib for test",
+  "files": [
+    "lib",
+    "typings",
+    "docs"
+  ],
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "exports": {
@@ -23,12 +28,13 @@
     "clean": "python script/clean.py",
     "ci": "python script/ci.py",
     "package": "python script/package.py",
+    "template": "python script/template.py -b",
     "restore": "python script/template.py -r",
     "helpdoc": "jsdoc2vitepress start",
     "vitepress:dev": "vitepress dev docs",
     "vitepress:build": "vitepress build docs"
   },
-  "repository": "terwer/zhi-env",
+  "repository": "terwer/zhi-ts-template",
   "homepage": "https://env.terwer.space",
   "author": "terwer",
   "license": "MIT",
