@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.8.2](https://github.com/terwer/zhi-env/compare/v1.8.1...v1.8.2) (2023-03-09)
+
+
+### Bug Fixes
+
+* add env docs ([87cd09c](https://github.com/terwer/zhi-env/commit/87cd09cba9efb0322349b7202e6e4dfa31c57be7))
+* add env docs ([81bb659](https://github.com/terwer/zhi-env/commit/81bb6590e09e57f594937e7bee31d4197adbd0bb))
+* add env docs ([b78d28c](https://github.com/terwer/zhi-env/commit/b78d28c9dec877fe503a0a83d1e7bfe879af39ae))
+* fix deps ([02a8d7a](https://github.com/terwer/zhi-env/commit/02a8d7a37f7c3edd46df72dcadb5f198eebdbd76))
+
 ## [1.8.1](https://github.com/terwer/zhi-env/compare/v1.8.0...v1.8.1) (2023-03-09)
 
 
