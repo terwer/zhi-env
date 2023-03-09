@@ -44,7 +44,7 @@ if __name__ == "__main__":
         if os.path.exists("./package-template.json"):
             parse_json(cwd + "package.json")
             print("package.json changed for test and ci only.")
-         else:
+        else:
             print("template not exist, ignored.")
 
     # 还原

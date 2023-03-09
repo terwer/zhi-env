@@ -1,5 +1,5 @@
 {
-  "name": "terwer",
+  "name": "zhi-env",
   "version": "1.4.0",
   "description": "ts template lib for test",
   "files": [
@@ -34,7 +34,7 @@
     "vitepress:dev": "vitepress dev docs",
     "vitepress:build": "vitepress build docs"
   },
-  "repository": "terwer/zhi-ts-template",
+  "repository": "terwer/zhi-env",
   "homepage": "https://env.terwer.space",
   "author": "terwer",
   "license": "MIT",
