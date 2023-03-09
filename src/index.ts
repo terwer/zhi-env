@@ -1,3 +1,5 @@
+import EnvConstants from "./EnvConstants"
+
 /**
  * 环境变量工具类
  *
@@ -11,10 +13,10 @@ class EnvUtil {
    * 是否是调试阶段
    */
   public static isDev =
-    EnvUtil.isNodeDev || EnvUtil.getBooleanEnv("VITE_DEBUG_MODE")
+    EnvUtil.isNodeDev || EnvUtil.getBooleanEnv(EnvConstants.VITE_DEBUG_MODE_KEY)
 
   /**
-   * 获取环境变量
+   * 获取环境变量，key不存在返回undefined
    * @param key key
    */
   public static getEnv(key: string): string | undefined {
@@ -31,7 +33,7 @@ class EnvUtil {
   }
 
   /**
-   * 获取String类型的环境变量
+   * 获取String类型的环境变量，key不存在直接返回空值
    * @param key
    */
   public static getStringEnv(key: string): string {
@@ -39,7 +41,7 @@ class EnvUtil {
   }
 
   /**
-   * 获取Boolean类型的环境变量
+   * 获取Boolean类型的环境变量，key不存在返回false
    * @param key
    */
   public static getBooleanEnv(key: string): boolean {
