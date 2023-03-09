@@ -21,6 +21,7 @@
     "prettier": "prettier --write .",
     "typings": "python script/typings.py",
     "clean": "python script/clean.py",
+    "ci": "python script/ci.py",
     "package": "python script/package.py",
     "restore": "python script/template.py -r",
     "helpdoc": "jsdoc2vitepress start",
@@ -28,7 +29,7 @@
     "vitepress:build": "vitepress build docs"
   },
   "repository": "terwer/zhi-env",
-  "homepage": "https://terwer.space",
+  "homepage": "https://env.terwer.space",
   "author": "terwer",
   "license": "MIT",
   "devDependencies": {
