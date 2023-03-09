@@ -2,7 +2,7 @@
   "markdownDirs": [
     {
       "root": "./src",
-      "output": "./docs/zhienv",
+      "output": "./docs/helpdoc",
       "ingoreList": []
     }
   ]

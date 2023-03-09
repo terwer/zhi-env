@@ -1,6 +1,6 @@
 import { getSideBar } from "vitepress-plugin-autobar"
 export default {
-  title: "zhi-env", // 设置网站标题
+  title: "helpdoc", // 设置网站标题
   description: "a cross-platform env config lib",
   base: "/", // 设置站点根路径
   outDir: "./.vitepress/dist", // 设置输出目录
@@ -12,7 +12,7 @@ export default {
     // 添加导航栏
     nav: [
       {
-        text: "zhi-env",
+        text: "helpdoc",
         link: "/",
         target: "_self",
       },

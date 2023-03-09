@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /zhienv/
+      link: /doc/
     - theme: alt
       text: View on Git
       link: https://github.com/terwer/zhi-env
