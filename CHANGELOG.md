@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.0](https://github.com/terwer/zhi-env/compare/v1.6.0...v1.7.0) (2023-03-09)
+
+
+### Features
+
+* fix env ([17f13e1](https://github.com/terwer/zhi-env/commit/17f13e1c093037a82d3fd35dcc9c4490b5d3a781))
+* fix env ([ace90f6](https://github.com/terwer/zhi-env/commit/ace90f6b55516778e8a15a1c933e2a3be15dcae2))
+* fix env ([539be81](https://github.com/terwer/zhi-env/commit/539be81a3bb94a47c87128c770f60f9858384f94))
+* fix env ([72915d6](https://github.com/terwer/zhi-env/commit/72915d60d5938e319e17070fa533349538b7bae4))
+* fix env ([4d873ed](https://github.com/terwer/zhi-env/commit/4d873ed491ce97ae36e59c68980bb11f4ca4cbd5))
+* ignore doc ([0216625](https://github.com/terwer/zhi-env/commit/02166255f7ca6f374e3a0a148e8568b132cdf249))
+
 ## [1.6.0](https://github.com/terwer/zhi-env/compare/v1.5.0...v1.6.0) (2023-03-09)
 
 
