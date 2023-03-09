@@ -14,10 +14,10 @@ if __name__ == "__main__":
 
     scriptutils.mkdir("./temp")
     scriptutils.mkdir("./etc")
-    scriptutils.mkdir("./doc")
     scriptutils.mkdir("./typings")
 
     # os.system("api-extractor run --local --diagnostics")
-    os.system("api-extractor run --local")
-    os.system("api-documenter markdown -i temp -o doc")
+    os.system("pnpm vitepress:api")
+    os.system("pnpm vitepress:prepare")
+
     print("compile finished.")
