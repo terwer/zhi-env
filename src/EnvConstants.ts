@@ -1,6 +1,7 @@
 /**
  * 预定义的环境变量
  *
+ * @public
  * @author terwer
  * @since 1.0.0
  */
