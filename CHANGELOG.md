@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/terwer/zhi-env/compare/v1.1.0...v1.2.0) (2023-03-09)
+
+
+### Features
+
+* add docs ([24e1517](https://github.com/terwer/zhi-env/commit/24e1517f85add085c5a21d1ae4ad1c1946ee32cb))
+* add unit tests ([e7c46bd](https://github.com/terwer/zhi-env/commit/e7c46bd69e0c187be3260ed2e02a0eb48208f07e))
+
 ## [1.1.0](https://github.com/terwer/zhi-env/compare/v1.0.0...v1.1.0) (2023-03-08)
 
 
