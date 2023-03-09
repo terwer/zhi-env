@@ -4,8 +4,7 @@
   "description": "ts template lib for test",
   "files": [
     "lib",
-    "typings",
-    "docs"
+    "typings"
   ],
   "main": "./lib/index.js",
   "module": "./lib/index.js",
