@@ -29,19 +29,17 @@
 
 ## [1.6.0](https://github.com/terwer/zhi-env/compare/v1.5.0...v1.6.0) (2023-03-09)
 
-
 ### Features
 
-* fix ci ([985398e](https://github.com/terwer/zhi-env/commit/985398e09a244973e8751eb433b1ca5fb0a94387))
-* fix docs ([0f30e1f](https://github.com/terwer/zhi-env/commit/0f30e1fcdca8da4b42304b42d7906e7c9604a88f))
-* fix docs ([1a94556](https://github.com/terwer/zhi-env/commit/1a94556167b95379dac7e50cef0f4abe37c3258f))
+- fix ci ([985398e](https://github.com/terwer/zhi-env/commit/985398e09a244973e8751eb433b1ca5fb0a94387))
+- fix docs ([0f30e1f](https://github.com/terwer/zhi-env/commit/0f30e1fcdca8da4b42304b42d7906e7c9604a88f))
+- fix docs ([1a94556](https://github.com/terwer/zhi-env/commit/1a94556167b95379dac7e50cef0f4abe37c3258f))
 
 ## [1.5.0](https://github.com/terwer/zhi-env/compare/v1.4.0...v1.5.0) (2023-03-09)
 
-
 ### Features
 
-* fix ci ([758e7f2](https://github.com/terwer/zhi-env/commit/758e7f27ca896b3fd8a4c0d3640c810a1bfbd8cf))
+- fix ci ([758e7f2](https://github.com/terwer/zhi-env/commit/758e7f27ca896b3fd8a4c0d3640c810a1bfbd8cf))
 
 ## [1.4.0](https://github.com/terwer/zhi-env/compare/v1.3.0...v1.4.0) (2023-03-09)
 

@@ -12,7 +12,7 @@ import EnvConstants from "./EnvConstants"
  * @author terwer
  * @since 0.0.1
  */
-class EnvUtil {
+class Env {
   private readonly envMeta
 
   /**
@@ -34,7 +34,8 @@ class EnvUtil {
   /**
    * 环境初始化
    *
-   * @param envMeta 需要传入 import.meta.env
+   * @param envMeta - 需要传入 import.meta.env 。特别提醒：此参数是静态元数据，取决于最终使用的项目。因此仅仅在最终使用的地方显示传递此值，中间项目请保持参数传递
+   * @see {@link https://vitejs.dev/guide/env-and-mode.html#production-replacement}
    */
   constructor(envMeta: any) {
     this.envMeta = envMeta
@@ -94,5 +95,5 @@ class EnvUtil {
   }
 }
 
-export default EnvUtil
+export default Env
 export { EnvConstants }
