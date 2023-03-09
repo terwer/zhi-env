@@ -1,3 +1,5 @@
+# coding=UTF-8
+
 # Copyright (c) 2022 Terwer Authors. All Rights Reserved.
 # @author terwer on 2023/3/7
 # ========================================================
