@@ -16,6 +16,22 @@ class EnvUtil {
   private readonly envMeta
 
   /**
+   * 是否是开发阶段调试
+   */
+  public isNodeDev() {
+    return this.getEnv(EnvConstants.NODE_ENV_KEY) === "development"
+  }
+
+  /**
+   * 是否是调试阶段
+   */
+  public isDev() {
+    return (
+      this.isNodeDev() || this.getBooleanEnv(EnvConstants.VITE_DEBUG_MODE_KEY)
+    )
+  }
+
+  /**
    * 环境初始化
    *
    * @param envMeta 需要传入 import.meta.env
@@ -23,16 +39,6 @@ class EnvUtil {
   constructor(envMeta: any) {
     this.envMeta = envMeta
   }
-
-  /**
-   * 是否是开发阶段调试
-   */
-  public isNodeDev = process.env.NODE_ENV === "development"
-  /**
-   * 是否是调试阶段
-   */
-  public isDev =
-    this.isNodeDev || this.getBooleanEnv(EnvConstants.VITE_DEBUG_MODE_KEY)
 
   /**
    * 获取环境变量，key不存在返回undefined
