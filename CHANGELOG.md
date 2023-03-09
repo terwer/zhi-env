@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/terwer/zhi-env/compare/v1.2.0...v1.3.0) (2023-03-09)
+
+
+### Features
+
+* add tsdoc to vitepress docs ([64f6434](https://github.com/terwer/zhi-env/commit/64f64348222e9578beb9c25a61c45dd663fd6153))
+
 ## [1.2.0](https://github.com/terwer/zhi-env/compare/v1.1.0...v1.2.0) (2023-03-09)
 
 
