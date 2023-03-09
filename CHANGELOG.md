@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.0](https://github.com/terwer/zhi-env/compare/v1.3.0...v1.4.0) (2023-03-09)
+
+
+### Features
+
+* fix ci ([d54ddaa](https://github.com/terwer/zhi-env/commit/d54ddaa6c8f063ae94ce648bd6d333f11f81f664))
+* fix scripts ([2498a7b](https://github.com/terwer/zhi-env/commit/2498a7b60a20f916ea8d077a7989e4255e79f1c6))
+* fix tsconfig ([b375c4f](https://github.com/terwer/zhi-env/commit/b375c4fce9a81091cb755b130bcbd19f2c8f4e6f))
+* fix url ([8aa5993](https://github.com/terwer/zhi-env/commit/8aa59935a2dc018d7971493cd206cefd8c593ded))
+
 ## [1.3.0](https://github.com/terwer/zhi-env/compare/v1.2.0...v1.3.0) (2023-03-09)
 
 
