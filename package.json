@@ -28,7 +28,7 @@
     "vitepress:build": "vitepress build docs"
   },
   "repository": "terwer/zhi-env",
-  "homepage": "https://terwer.space",
+  "homepage": "https://env.terwer.space",
   "author": "terwer",
   "license": "MIT",
   "devDependencies": {
