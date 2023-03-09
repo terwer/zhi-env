@@ -4,7 +4,7 @@ layout: home
 hero:
   name: zhi-env
   text: a cross-platform env config lib
-  tagline: zhi env zhi-env config
+  tagline: make env handling easy, simple
   actions:
     - theme: brand
       text: Get Started
