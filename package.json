@@ -1,7 +1,8 @@
 {
   "name": "zhi-env",
   "version": "1.8.2",
-  "description": "ts template lib for test",
+  "description": "a cross-platform env config lib",
+  "type": "module",
   "files": [
     "lib",
     "typings"
@@ -17,7 +18,7 @@
   "typings": "./typings/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "rm -rf ./typings && vite build",
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "lint": "eslint --ext .ts ./src",
