@@ -1,6 +1,6 @@
 {
   "name": "zhi-env",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "description": "ts template lib for test",
   "files": [
     "lib",
