@@ -1,7 +1,7 @@
 {
   "name": "zhi-env",
   "version": "1.8.2",
-  "description": "ts template lib for test",
+  "description": "a cross-platform env config lib",
   "type": "module",
   "files": [
     "lib",
