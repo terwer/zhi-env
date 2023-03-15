@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.9.0](https://github.com/terwer/zhi-env/compare/v1.8.2...v1.9.0) (2023-03-15)
+
+
+### Features
+
+* fix build type ([bd01fca](https://github.com/terwer/zhi-env/commit/bd01fca076957dfb253eda222c882a6dca50c30a))
+* update docs ([75bd113](https://github.com/terwer/zhi-env/commit/75bd1134f306138ca1689bf9d1aab8ec15dd0d7c))
+
+
+### Bug Fixes
+
+* fix package ([72d77df](https://github.com/terwer/zhi-env/commit/72d77dfc76ceb0c42991942064a004f895763ea3))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump vitepress from 1.0.0-alpha.50 to 1.0.0-alpha.58 ([f26042f](https://github.com/terwer/zhi-env/commit/f26042fed534e3ce7bae2837927f5ef45d958382))
+
 ## [1.8.2](https://github.com/terwer/zhi-env/compare/v1.8.1...v1.8.2) (2023-03-09)
 
 ### Bug Fixes
