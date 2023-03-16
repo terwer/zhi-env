@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.10.0](https://github.com/terwer/zhi-env/compare/v1.9.0...v1.10.0) (2023-03-16)
+
+
+### Features
+
+* add nuxt support ([a6098c5](https://github.com/terwer/zhi-env/commit/a6098c518856a9f90154ebf7e9fbbe7694bca28f))
+* update docs and license ([da0fd3d](https://github.com/terwer/zhi-env/commit/da0fd3dc24d9ce963506644b771e440366474a8e))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump vitepress from 1.0.0-alpha.58 to 1.0.0-alpha.60 ([480b736](https://github.com/terwer/zhi-env/commit/480b7367d2f90e2ff4bc0ad37abfb0700e7d4961))
+* update vitepress ([5d67613](https://github.com/terwer/zhi-env/commit/5d67613ff0910109a8cf3c427752c7f7538968ea))
+
 ## [1.9.0](https://github.com/terwer/zhi-env/compare/v1.8.2...v1.9.0) (2023-03-15)
 
 
