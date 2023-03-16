@@ -7,10 +7,24 @@ a cross-platform env config lib
 
 ## Usage
 
+For `vite`
+
 ```ts
 import Env from "zhi-env"
 
 const env = new Env(import.meta.env)
+const val = env.getEnv("some-key")
+console.log("val=>", val)
+```
+
+For `Nuxt` framework
+
+```ts
+import Env from "zhi-env"
+
+const nuxtEnv = useRuntimeConfig()
+const env = new Env(nuxtEnv)
+
 const val = env.getEnv("some-key")
 console.log("val=>", val)
 ```
