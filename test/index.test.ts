@@ -9,31 +9,31 @@ describe("test index", () => {
 
   it("test getEnv undefined", function () {
     const val = env.getEnv(NOT_EXIST_KEY)
-    console.log("env=>", val)
+    console.log("val=>", val)
     expect(val).toBeUndefined()
   })
 
   it("test getEnv ok", function () {
     const val = env.getEnv(EnvConstants.VITE_DEBUG_MODE_KEY)
-    console.log("env=>", val)
+    console.log("val=>", val)
     // expect(val).toBeTruthy()
   })
 
   it("test getStringEnv", function () {
     const val = env.getStringEnv(EnvConstants.VITE_DEBUG_MODE_KEY)
-    console.log("env=>", val)
+    console.log("val=>", val)
     expect(val).toBeTypeOf("string")
   })
 
   it("test getBooleanEnv", function () {
     const val = env.getBooleanEnv(EnvConstants.VITE_DEBUG_MODE_KEY)
-    console.log("env=>", val)
+    console.log("val=>", val)
     expect(val).toBeTypeOf("boolean")
   })
 
   it("test getEnvOrDefault", function () {
     const val = env.getEnvOrDefault(NOT_EXIST_KEY, "hello")
-    console.log("env=>", val)
+    console.log("val=>", val)
     expect(val).toBeTypeOf("string")
   })
 })
