@@ -1,6 +1,6 @@
 {
   "name": "zhi-env",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "a cross-platform env config lib",
   "type": "module",
   "files": [
